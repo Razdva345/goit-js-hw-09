@@ -82,7 +82,7 @@ const galleryItemsMarkup = images
 	.join("");
 galleryList.insertAdjacentHTML("beforeend", galleryItemsMarkup);
 
-let lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
 	captionsData: "alt",
 	captionPosition: "bottom",
 	captionDelay: 250,
